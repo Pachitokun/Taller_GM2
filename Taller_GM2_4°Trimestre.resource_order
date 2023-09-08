@@ -25,6 +25,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"Obj_Candy","order":5,"path":"objects/Obj_Candy/Obj_Candy.yy",},
+    {"name":"Soberbia_1","order":6,"path":"rooms/Soberbia_1/Soberbia_1.yy",},
     {"name":"Sprite13","order":2,"path":"sprites/Sprite13/Sprite13.yy",},
     {"name":"Spr_Run","order":1,"path":"sprites/Spr_Run/Spr_Run.yy",},
     {"name":"TileSet_Envidia","order":5,"path":"tilesets/TileSet_Envidia/TileSet_Envidia.yy",},
@@ -40,6 +41,7 @@
     {"name":"Obj_Lujuria","order":3,"path":"objects/Obj_Lujuria/Obj_Lujuria.yy",},
     {"name":"Spr_Taberna","order":2,"path":"sprites/Spr_Taberna/Spr_Taberna.yy",},
     {"name":"Obj_Portal","order":1,"path":"objects/Obj_Portal/Obj_Portal.yy",},
+    {"name":"TileSet_Soberbias","order":6,"path":"tilesets/TileSet_Soberbias/TileSet_Soberbias.yy",},
     {"name":"Obj_Control","order":7,"path":"objects/Obj_Control/Obj_Control.yy",},
     {"name":"TileSet_Ira","order":2,"path":"tilesets/TileSet_Ira/TileSet_Ira.yy",},
     {"name":"Envidia_6","order":4,"path":"rooms/Envidia_6/Envidia_6.yy",},
@@ -48,6 +50,7 @@
     {"name":"TileSet_Avaricia","order":1,"path":"tilesets/TileSet_Avaricia/TileSet_Avaricia.yy",},
     {"name":"Obj_go_to_Room6","order":5,"path":"objects/Obj_go_to_Room6/Obj_go_to_Room6.yy",},
     {"name":"TileSet_Gula","order":4,"path":"tilesets/TileSet_Gula/TileSet_Gula.yy",},
+    {"name":"Spr_Soberbia","order":7,"path":"sprites/Spr_Soberbia/Spr_Soberbia.yy",},
     {"name":"Sprite16","order":6,"path":"sprites/Sprite16/Sprite16.yy",},
     {"name":"TileSet4","order":3,"path":"tilesets/TileSet4/TileSet4.yy",},
     {"name":"Spr_Envidia","order":6,"path":"sprites/Spr_Envidia/Spr_Envidia.yy",},

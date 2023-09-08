@@ -38,11 +38,12 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.4.0.84",
+    "IDEVersion": "2023.6.0.92",
   },
   "resources": [
     {"id":{"name":"Spr_Idle","path":"sprites/Spr_Idle/Spr_Idle.yy",},},
     {"id":{"name":"Obj_Candy","path":"objects/Obj_Candy/Obj_Candy.yy",},},
+    {"id":{"name":"Soberbia_1","path":"rooms/Soberbia_1/Soberbia_1.yy",},},
     {"id":{"name":"Sprite13","path":"sprites/Sprite13/Sprite13.yy",},},
     {"id":{"name":"Spr_Run","path":"sprites/Spr_Run/Spr_Run.yy",},},
     {"id":{"name":"TileSet_Envidia","path":"tilesets/TileSet_Envidia/TileSet_Envidia.yy",},},
@@ -59,6 +60,7 @@
     {"id":{"name":"Spr_Taberna","path":"sprites/Spr_Taberna/Spr_Taberna.yy",},},
     {"id":{"name":"Obj_Collision","path":"objects/Obj_Collision/Obj_Collision.yy",},},
     {"id":{"name":"Obj_Portal","path":"objects/Obj_Portal/Obj_Portal.yy",},},
+    {"id":{"name":"TileSet_Soberbias","path":"tilesets/TileSet_Soberbias/TileSet_Soberbias.yy",},},
     {"id":{"name":"Obj_Control","path":"objects/Obj_Control/Obj_Control.yy",},},
     {"id":{"name":"TileSet_Ira","path":"tilesets/TileSet_Ira/TileSet_Ira.yy",},},
     {"id":{"name":"Envidia_6","path":"rooms/Envidia_6/Envidia_6.yy",},},
@@ -70,6 +72,7 @@
     {"id":{"name":"TileSet_Soberbia","path":"tilesets/TileSet_Soberbia/TileSet_Soberbia.yy",},},
     {"id":{"name":"Obj_go_to_Room6","path":"objects/Obj_go_to_Room6/Obj_go_to_Room6.yy",},},
     {"id":{"name":"TileSet_Gula","path":"tilesets/TileSet_Gula/TileSet_Gula.yy",},},
+    {"id":{"name":"Spr_Soberbia","path":"sprites/Spr_Soberbia/Spr_Soberbia.yy",},},
     {"id":{"name":"Sprite16","path":"sprites/Sprite16/Sprite16.yy",},},
     {"id":{"name":"TileSet4","path":"tilesets/TileSet4/TileSet4.yy",},},
     {"id":{"name":"Spr_Envidia","path":"sprites/Spr_Envidia/Spr_Envidia.yy",},},
@@ -91,6 +94,7 @@
     {"roomId":{"name":"Ira_4","path":"rooms/Ira_4/Ira_4.yy",},},
     {"roomId":{"name":"Envidia_6","path":"rooms/Envidia_6/Envidia_6.yy",},},
     {"roomId":{"name":"Gula_5","path":"rooms/Gula_5/Gula_5.yy",},},
+    {"roomId":{"name":"Soberbia_1","path":"rooms/Soberbia_1/Soberbia_1.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
