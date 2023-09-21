@@ -4,6 +4,8 @@
   "name": "Obj_Escanor",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"Player","path":"objects/Player/Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -25,12 +27,17 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"enemyHP","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"50","varType":0,},
+  ],
   "solid": true,
   "spriteId": {
     "name": "Spr_Escanor",
     "path": "sprites/Spr_Escanor/Spr_Escanor.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "Spr_Escanor",
+    "path": "sprites/Spr_Escanor/Spr_Escanor.yy",
+  },
   "visible": true,
 }

@@ -1,3 +1,5 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-room_goto(Lujuria)
+with(other){
+	image_blend = c_yellow;	
+}

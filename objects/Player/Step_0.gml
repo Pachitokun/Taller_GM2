@@ -1,14 +1,15 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-keyLeft = keyboard_check(vk_left) || keyboard_check(ord("A"));
-keyLeft = keyboard_check(vk_right) || keyboard_check(ord("D"));
-keyLeft = keyboard_check(vk_up) || keyboard_check(ord("W"));
-keyLeft = keyboard_check(vk_down) || keyboard_check(ord("S"));
-keyActivate = keyboard_check_pressed(vk_space);
-keyAttack = keyboard_check_pressed(vk_shift);
-keyItem = keyboard_check_pressed(vk_control);
-
-
+var keyLeft = keyboard_check(vk_left) || keyboard_check(ord("A"));
+var keyRight = keyboard_check(vk_right) || keyboard_check(ord("D"));
+var keyUp = keyboard_check(vk_up) || keyboard_check(ord("W"));
+var keyDown = keyboard_check(vk_down) || keyboard_check(ord("S"));
+var keyActivate = keyboard_check_pressed(vk_space);
+var keyAttack = keyboard_check_pressed(vk_shift);
+var keyItem = keyboard_check_pressed(vk_control);
+var xinput = keyRight - keyLeft;
+var yinput = keyDown - keyUp;
+move_and_collide(xinput * Spd, yinput * Spd, Obj_Collision)
 
 {
  		#region Move State
@@ -48,3 +49,9 @@ keyItem = keyboard_check_pressed(vk_control);
 	}
 	#endregion
 }
+depth = -y;
+if(hp<=0){
+	room_goto(GameOver)	
+}
+show_debug_message("Nos queda esto de vida:");
+show_debug_message(hp);
